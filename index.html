@@ -17,6 +17,8 @@
 
 
     <link rel="stylesheet" type="text/css" href="default.css">
+
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
 </head>
 <body>
 
@@ -52,8 +54,8 @@
                     <h5 style="text-align: center; line-height: 0;">Personalize Theme</h5>
 
                     <div id="theme-options-wrapper">
-                        <div id="light-mode" class="theme-dot"></div>
-                        <div id="dark-mode" class="theme-dot"></div>
+                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="dark" id="dark-mode" class="theme-dot"></div>
 
                     </div>
                     <p id="settings-note">*Theme settings will be saved for<br>your next visit</p>
@@ -88,31 +90,126 @@
                         a Software engineering bootcamp where i expanded my knowledge
                         in Python and Azure.
                     </p>
-                    <p>After completion </p>
-                </div>
-                <div class="social-links">
+                    <p>After completion i continued to deep dive into Azure, learning and obtaining 
+                        certificates for all fundamentlals: <br>
+                        Az-900 Microsoft Azure Fundamentals.
+                        AI-900 Microsoft Azure AI Fundamentals
+                        DP- 900 Microsoft Azure Data Fundamentals
+                        SC-900 Microsoft Security, Compliance, and Identity Fundamentals</p>
 
+                    <p> Afterwards i have completed AZ-204 Microsoft Certified: Azure Developer Associate certification
+                    and now working towards obtaining AZ-400 Designing and Implementing Microsoft DevOps Solutions.
+                    </p>
+                    <p> <a target="_blank" href="https://www.credly.com/users/paulius-spudyd/badges#">Microsoft certificates</a></p>
+                </div>
+
+            
+                <hr>
+
+                <h4<>TOP EXPERTISE</h4>
+
+                <p>Junior Software Developer with primary focus on Python and Azure: <a target="_blank" href="P SPUDYS CV.pdf">Download Resume</a></p>
+                
+                <div id="skills">
+                    <ul>
+                        <li>Python</li>
+                        <li>Azure</li>
+                        <li>HTML/CSS</li>
+                        
+                    </ul>
+
+                    <ul>
+                        <li>.....</li>
+                        <li>.....</li>
+                        <li>.....</li>
+                        
+                    </ul>
+
+                </div>
+
+
+
+                <div class="social-links">
+                    <h3>Message me on: </h3>
+                    <a target="_blank" href="https://www.linkedin.com/in/paulius-spudys-b09826239/">LinkedIn</a>
                 </div>
 
 
             </div>
-            <a href="#">Link</a>
+           
         </div>
     </section>
 
     <section class="s1">
         <div class="main-container"> 
-            Portfolio
-            <a href="#">Link</a>
+            
+             <h3 style="text-align: center;"> My Projects </h3>
+             <div class="post-wrapper">
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/paul.jpg">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post title</h6>
+                            <p class="post-intro">This is a sentence.Some more text</p>
+                            <a href="post.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/paul.jpg">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post title</h6>
+                            <p class="post-intro">This is a sentence.Some more text</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/paul.jpg">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post title</h6>
+                            <p class="post-intro">This is a sentence.Some more text</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+             </div>
+           
+            
         </div>
     </section>
 
     <section class="s2">
         <div class="main-container"> 
-            Contact
-            <a href="#">Link</a> 
+            <h3 style="text-align: center;"> Get In Touch </h3>
+
+            <form id="contact-form">
+                <label>Name</label>
+                <input class="input-field" type="text" name="name">
+
+                <label>Subject</label>
+                <input class="input-field" type="text" name="subject">
+
+                <label>Email</label>
+                <input class="input-field" type="text" name="email">
+
+                <label>Message</label>
+                <textarea class="input-field" type="text" name="message"></textarea>
+
+
+                
+                <input id="submit-button" type="submit" value="Send">
+
+
+            </form>
         </div>
     </section>
 
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
